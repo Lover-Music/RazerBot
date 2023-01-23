@@ -10,23 +10,23 @@ def get_user_list(config, key):
 # Create a new config.py or rename this to config.py file in same dir and import, then extend this class.
 class Config(object):
     LOGGER = True
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "API_HASH"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    BOT_USERNAME = "BOT_USERNAME"
-    BOT_NAME = ""
-    BOT_ID = ""
-    OWNER_ID = Your_Id  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "YourUsername"
-    START_IMG = "https://graph.org/file/644fddccf30ac191fc895.jpg"
-    ALIVE_IMG = "https://graph.org/file/36c17c0f22aeea9c99895.jpg"
-    UPDATE_CHANNEL = "<channel-username>" # Your own channel for updates, do not add the @
-    SUPPORT_CHAT = "<support-chat-username>"  # Your own group for support, do not add the @
-    JOIN_LOGGER = (-10012345678)  # A new channel ID To log who started the bot. Starting with "-100", Put inside braces
-    EVENT_LOGS = (-10012345678)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
+    API_ID = 18960528  # integer value, dont use ""
+    API_HASH = "cc0fff577b677c9b2b4de5dd5bc5dfd1"
+    TOKEN = "5607218250:AAF5V7dFoSUFof0fjjNQ3PayQvcKXBlI0E0"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    BOT_USERNAME = "SonaChatBot"
+    BOT_NAME = "Sona"
+    BOT_ID = "5607218250"
+    OWNER_ID = 1548904516  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "shubhamsah1"
+    START_IMG = "https://telegra.ph/file/360ab36e24e9d75b7b6b2.jpg"
+    ALIVE_IMG = "https://telegra.ph/file/360ab36e24e9d75b7b6b2.jpg"
+    UPDATE_CHANNEL = "Lover_about" # Your own channel for updates, do not add the @
+    SUPPORT_CHAT = "the_chatting"  # Your own group for support, do not add the @
+    JOIN_LOGGER = (-1001899951693)  # A new channel ID To log who started the bot. Starting with "-100", Put inside braces
+    EVENT_LOGS = (-1001899951693)  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    MONGO_DB_URI = "" 
+    MONGO_DB_URI = "mongodb+srv://2004:2004@cluster0.vugmi1n.mongodb.net/?retryWrites=true&w=majority" 
     SQLALCHEMY_DATABASE_URI = ""  # needed for any database module
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
@@ -48,14 +48,14 @@ class Config(object):
     DEL_CMDS = True  # Delete commands that users dont have access to, like delete /ban if a non admin uses it.
     STRICT_GBAN = True
     WORKERS = (8)  # Number of subthreads to use. Set as number of threads your processor uses
-    BAN_STICKER = ""  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
-    OPENWEATHERMAP_ID = ""
+    BAN_STICKER = "xyz"  # banhammer marie sticker id, the bot will send this sticker before banning or kicking a user in chat.
+    OPENWEATHERMAP_ID = "xyz"
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
-    CASH_API_KEY = ""  # Get your API key from https://www.alphavantage.co/support/#api-key
-    IBM_WATSON_CRED_URL = ""
-    IBM_WATSON_CRED_PASSWORD = ""
-    TIME_API_KEY = ""  # Get your API key from https://timezonedb.com/api
-    AI_API_KEY = ""  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
+    CASH_API_KEY = "xyz"  # Get your API key from https://www.alphavantage.co/support/#api-key
+    IBM_WATSON_CRED_URL = "xyz"
+    IBM_WATSON_CRED_PASSWORD = "xyz"
+    TIME_API_KEY = "xyz"  # Get your API key from https://timezonedb.com/api
+    AI_API_KEY = "xyz"  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     BL_CHATS = []  # List of groups that you want blacklisted.
     ALLOW_CHATS = True
     SPAMMERS = None
