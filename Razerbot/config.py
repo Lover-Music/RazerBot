@@ -33,7 +33,7 @@ class Config(object):
     WEBHOOK = False
     INFOPIC = True
     URL = None
-    SPAMWATCH_API = "gnXMG8kIxmgejABts9lneVAKtyME9fm_uJqpBQtq~fqsuR_oeLPUbscKweAFc9uh"  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "Vpo8SPYwt_mVtbqz7XekIH5sGrsNhHAsi1yMD94Z~MaeQur3d5YrFH4BOdY811r0"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
     TEMP_DOWNLOAD_DIRECTORY = "./"
     
