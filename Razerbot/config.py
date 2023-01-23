@@ -27,7 +27,7 @@ class Config(object):
 
     # RECOMMENDED
     MONGO_DB_URI = "mongodb+srv://2004:2004@cluster0.vugmi1n.mongodb.net/?retryWrites=true&w=majority" 
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database module
+    SQLALCHEMY_DATABASE_URI = "postgres://vcpealxn:IXN7Bv2NQ10cAjzFm_5W8TOUZAvK8yBu@salt.db.elephantsql.com/vcpealxn"  # needed for any database module
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
